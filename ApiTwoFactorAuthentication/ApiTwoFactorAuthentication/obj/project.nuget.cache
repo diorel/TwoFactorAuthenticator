@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NSK4wwK5avGuvhZkh4zBAfdlVx2FnqS1JBgRhtj4qSczrsWsOBKc7ITXy+JEVj6O/bukmIkf1trYLGenzEvb6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\diore\\OneDrive\\Escritorio\\ApiQRcode\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diore\\.nuget\\packages\\googleauthenticator\\2.1.1\\googleauthenticator.2.1.1.nupkg.sha512",
+    "C:\\Users\\diore\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\diore\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\diore\\.nuget\\packages\\qrcoder\\1.3.9\\qrcoder.1.3.9.nupkg.sha512",
+    "C:\\Users\\diore\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\diore\\.nuget\\packages\\twostepsauthenticator\\1.4.1\\twostepsauthenticator.1.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
