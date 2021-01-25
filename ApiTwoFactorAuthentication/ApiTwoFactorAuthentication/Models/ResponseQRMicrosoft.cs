@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 
 namespace ApiTwoFactorAuthentication.Models
 {
-    public class ResponseQRGoogle
+    public class ResponseQRMicrosoft
     {
         public string LlaveSecreta { get; set; }
-        public string CodigoManual { get; set; }
         public string QRImagen { get; set; }
     }
 }

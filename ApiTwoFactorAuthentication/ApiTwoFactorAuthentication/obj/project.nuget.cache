@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "NSK4wwK5avGuvhZkh4zBAfdlVx2FnqS1JBgRhtj4qSczrsWsOBKc7ITXy+JEVj6O/bukmIkf1trYLGenzEvb6g==",
+  "dgSpecHash": "2Pd1oDNrKB56hqkL/i6F7iO07GVOXxqeocVhUDyL84nAL7vzcEPzbjbA5zvOk1HXMfHG+NADTHmd0R04ZHlCNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diore\\OneDrive\\Escritorio\\ApiQRcode\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
+  "projectFilePath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diore\\.nuget\\packages\\googleauthenticator\\2.1.1\\googleauthenticator.2.1.1.nupkg.sha512",
     "C:\\Users\\diore\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\diore\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\diore\\.nuget\\packages\\qrcoder\\1.3.9\\qrcoder.1.3.9.nupkg.sha512",
+    "C:\\Users\\diore\\.nuget\\packages\\qrcoder\\1.4.1\\qrcoder.1.4.1.nupkg.sha512",
+    "C:\\Users\\diore\\.nuget\\packages\\simplebase\\3.0.2\\simplebase.3.0.2.nupkg.sha512",
     "C:\\Users\\diore\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\diore\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\diore\\.nuget\\packages\\twostepsauthenticator\\1.4.1\\twostepsauthenticator.1.4.1.nupkg.sha512"
   ],
   "logs": []

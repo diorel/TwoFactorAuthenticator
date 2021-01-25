@@ -41,7 +41,7 @@
           }
         }
       },
-      "QRCoder/1.3.9": {
+      "QRCoder/1.4.1": {
         "type": "package",
         "dependencies": {
           "System.Drawing.Common": "4.7.0"
@@ -51,6 +51,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/QRCoder.dll": {}
+        }
+      },
+      "SimpleBase/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/SimpleBase.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/SimpleBase.dll": {}
         }
       },
       "System.Drawing.Common/4.7.0": {
@@ -74,6 +86,15 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
         }
       },
       "TwoStepsAuthenticator/1.4.1": {
@@ -149,10 +170,10 @@
         "version.txt"
       ]
     },
-    "QRCoder/1.3.9": {
-      "sha512": "IHbhdLATo5dr6wvoDP5vGv9kn/vHkxtyzoTzUdnMU32Ju+/mg82xirHsSvTrhlwXb5X3CrtUhBbVfgSu7brS/A==",
+    "QRCoder/1.4.1": {
+      "sha512": "W8KwCwsOJe9SI7Cm7XeIMawd08F/US6xNw34lg2Qnx6m7GYYakxbyBQaNoW1Q75oJOmX/32sJUZr6Cix2B6GUQ==",
       "type": "package",
-      "path": "qrcoder/1.3.9",
+      "path": "qrcoder/1.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -160,8 +181,21 @@
         "lib/net40/QRCoder.dll",
         "lib/netstandard1.1/QRCoder.dll",
         "lib/netstandard2.0/QRCoder.dll",
-        "qrcoder.1.3.9.nupkg.sha512",
+        "qrcoder.1.4.1.nupkg.sha512",
         "qrcoder.nuspec"
+      ]
+    },
+    "SimpleBase/3.0.2": {
+      "sha512": "5K+pTcNfFlre/xn///PwPbU/Cnwc+tyaJo7vuXG6yC00Qno99cwy7UibQqSamq5GcU+WjvFppNaC274wfY6eSw==",
+      "type": "package",
+      "path": "simplebase/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/SimpleBase.dll",
+        "lib/netstandard2.1/SimpleBase.xml",
+        "simplebase.3.0.2.nupkg.sha512",
+        "simplebase.nuspec"
       ]
     },
     "System.Drawing.Common/4.7.0": {
@@ -203,6 +237,29 @@
         "version.txt"
       ]
     },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "TwoStepsAuthenticator/1.4.1": {
       "sha512": "bkDEFWLibbJ5b0b7zgr3Uc1brYa5hFunZ36WmG+yvfwMCgu978NqEPVu1P120Qbrt65TYEcimsxTzICe6XfAig==",
       "type": "package",
@@ -224,6 +281,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "GoogleAuthenticator >= 2.1.1",
+      "QRCoder >= 1.4.1",
+      "SimpleBase >= 3.0.2",
       "TwoStepsAuthenticator >= 1.4.1"
     ]
   },
@@ -233,11 +292,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diore\\OneDrive\\Escritorio\\ApiQRcode\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
+      "projectUniqueName": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
       "projectName": "ApiTwoFactorAuthentication",
-      "projectPath": "C:\\Users\\diore\\OneDrive\\Escritorio\\ApiQRcode\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
+      "projectPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
       "packagesPath": "C:\\Users\\diore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diore\\OneDrive\\Escritorio\\ApiQRcode\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\obj\\",
+      "outputPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\diore\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -267,6 +326,14 @@
           "GoogleAuthenticator": {
             "target": "Package",
             "version": "[2.1.1, )"
+          },
+          "QRCoder": {
+            "target": "Package",
+            "version": "[1.4.1, )"
+          },
+          "SimpleBase": {
+            "target": "Package",
+            "version": "[3.0.2, )"
           },
           "TwoStepsAuthenticator": {
             "target": "Package",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diore\\OneDrive\\Escritorio\\ApiQRcode\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj": {}
+    "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diore\\OneDrive\\Escritorio\\ApiQRcode\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj": {
+    "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diore\\OneDrive\\Escritorio\\ApiQRcode\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
+        "projectUniqueName": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
         "projectName": "ApiTwoFactorAuthentication",
-        "projectPath": "C:\\Users\\diore\\OneDrive\\Escritorio\\ApiQRcode\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
+        "projectPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
         "packagesPath": "C:\\Users\\diore\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diore\\OneDrive\\Escritorio\\ApiQRcode\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\obj\\",
+        "outputPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\diore\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,14 @@
             "GoogleAuthenticator": {
               "target": "Package",
               "version": "[2.1.1, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "SimpleBase": {
+              "target": "Package",
+              "version": "[3.0.2, )"
             },
             "TwoStepsAuthenticator": {
               "target": "Package",
