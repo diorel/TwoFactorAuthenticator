@@ -13,7 +13,10 @@ using System.Drawing;
 using System.IO;
 using System.Drawing.Imaging;
 using System.Text;
-using SimpleBase;
+using EncodeDotNet;
+using Wiry.Base32;
+
+
 
 namespace ApiTwoFactorAuthentication.Controllers
 {
@@ -21,6 +24,12 @@ namespace ApiTwoFactorAuthentication.Controllers
     [ApiController]
     public class TwoFactorController : ControllerBase
     {
+        /// <summary>
+        /// Método para obtener clave y código QR Google
+        /// </summary>
+        /// <param name="par"></param>
+        /// <returns></returns>
+
         [Route("api/v1/Google/GetCode")]
         [HttpPost]
         public ReponseApi GetCodeGoogle(DataGoogle par)
@@ -58,7 +67,11 @@ namespace ApiTwoFactorAuthentication.Controllers
             return res;
         }
 
-
+        /// <summary>
+        /// Método para verificar código con dispositivo a authenticator google
+        /// </summary>
+        /// <param name="par"></param>
+        /// <returns></returns>
 
         [Route("api/v1/Google/ValidateCode")]
         [HttpPost]
@@ -103,6 +116,11 @@ namespace ApiTwoFactorAuthentication.Controllers
             return res ;
         }
 
+        /// <summary>
+        /// Método para obtener clave y código QR Microsoft
+        /// </summary>
+        /// <param name="par"></param>
+        /// <returns></returns>
 
         [Route("api/v1/Microsoft/GetCode")]
         [HttpPost]
@@ -129,16 +147,13 @@ namespace ApiTwoFactorAuthentication.Controllers
             }
             else 
             {
-
                 ResponseQRMicrosoft resMicrosoft = new ResponseQRMicrosoft();
 
                 var key = TwoStepsAuthenticator.Authenticator.GenerateKey();
-                Span<byte> Base = Base32.Crockford.Decode(key);
-                 var Resul =  Base.ToString();
-
+                byte[] inputBytes = Encoding.ASCII.GetBytes(key);
+                string base32 = Wiry.Base32.Base32Encoding.Standard.GetString(inputBytes);
+                string codigoManual = base32.Replace("=", null);
                 var AuthenticatorUri = funciones.GenerateQrCodeUri(par.Cuenta,par.Emisor, key);
-
-
                 QRCodeData qrCodeData = qrGenerator.CreateQrCode(AuthenticatorUri, QRCodeGenerator.ECCLevel.Q);
 
 
@@ -151,16 +166,23 @@ namespace ApiTwoFactorAuthentication.Controllers
                 var SigBase64 = Convert.ToBase64String(byteImage);
 
                 resMicrosoft.LlaveSecreta = key;
+                resMicrosoft.CodigoManual = codigoManual;
                 resMicrosoft.QRImagen = "data:image/png;base64," + SigBase64;
+        
 
                 res.Codigo = 1;
                 res.Respuesta = resMicrosoft;
+
 
             }
             return res;
         }
 
-
+        /// <summary>
+        /// Método para verificar código con dispositivo authenticator Microsoft
+        /// </summary>
+        /// <param name="par"></param>
+        /// <returns></returns>
 
         [Route("api/v1/Microsoft/ValidateCode")]
         [HttpPost]
@@ -204,31 +226,5 @@ namespace ApiTwoFactorAuthentication.Controllers
             }
             return res;
         }
-
-
-
-
-        //[Route("api/v1/Microsoft/ValidateCodeMicrosoft")]
-        //[HttpPost]
-        //public string ValidateCodeMicrosoft(Codigos codigos)
-        //{
-        //    var authenticator = new TwoStepsAuthenticator.TimeAuthenticator();
-
-        //    bool isok = authenticator.CheckCode(codigos.Secret, codigos.Code, codigos.User);
-
-        //    string respuesta = "";
-
-        //    if (isok != true)
-        //    {
-        //        respuesta = "error en el registro";
-        //    }
-        //    else
-        //    {
-        //        respuesta = "se registro correctamente";
-        //    }
-
-        //    return respuesta;
-        //}
-
     }
 }

@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "EncodeDotNet": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
             "GoogleAuthenticator": {
               "target": "Package",
               "version": "[2.1.1, )"
@@ -46,13 +50,13 @@
               "target": "Package",
               "version": "[1.4.1, )"
             },
-            "SimpleBase": {
-              "target": "Package",
-              "version": "[3.0.2, )"
-            },
             "TwoStepsAuthenticator": {
               "target": "Package",
               "version": "[1.4.1, )"
+            },
+            "Wiry.Base32": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             }
           },
           "imports": [
