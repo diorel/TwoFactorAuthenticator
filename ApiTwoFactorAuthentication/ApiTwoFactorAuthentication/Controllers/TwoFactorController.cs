@@ -40,30 +40,38 @@ namespace ApiTwoFactorAuthentication.Controllers
             res.Mensaje = "";
             res.Respuesta = null;
 
+            try
+            {
+                if (string.IsNullOrEmpty(par.Emisor))
+                {
+                    res.Mensaje = "El Emisor no puede ser nulo";
 
-            if (string.IsNullOrEmpty(par.Emisor))
-            {
-                res.Mensaje = "El Emisor no puede ser nulo";
-       
-            }
-            else if(string.IsNullOrEmpty(par.Cuenta))
-            {
-                res.Mensaje = "La Cuenta no puede ser nula";
-            }
-            else
-            {
-                TwoFactorAuthenticator autenticador = new TwoFactorAuthenticator();
-                ResponseQRGoogle resGoogle = new ResponseQRGoogle();
-                var key = TwoStepsAuthenticator.Authenticator.GenerateKey();
-                var setupInfo = autenticador.GenerateSetupCode(par.Emisor, par.Cuenta, key, false, par.QRTamaño);
-          
-                resGoogle.QRImagen = setupInfo.QrCodeSetupImageUrl;
-                resGoogle.LlaveSecreta = key;
-                resGoogle.CodigoManual = setupInfo.ManualEntryKey;
+                }
+                else if (string.IsNullOrEmpty(par.Cuenta))
+                {
+                    res.Mensaje = "La Cuenta no puede ser nula";
+                }
+                else
+                {
+                    TwoFactorAuthenticator autenticador = new TwoFactorAuthenticator();
+                    ResponseQRGoogle resGoogle = new ResponseQRGoogle();
+                    var key = TwoStepsAuthenticator.Authenticator.GenerateKey();
+                    var setupInfo = autenticador.GenerateSetupCode(par.Emisor, par.Cuenta, key, false, par.QRTamaño <= 0 ? 4 : par.QRTamaño);
 
-                res.Codigo = 1;
-                res.Respuesta = resGoogle;
+                    resGoogle.QRImagen = setupInfo.QrCodeSetupImageUrl;
+                    resGoogle.LlaveSecreta = key;
+                    resGoogle.CodigoManual = setupInfo.ManualEntryKey;
+
+                    res.Codigo = 1;
+                    res.Respuesta = resGoogle;
+                }
+            } catch(Exception ex)
+            {
+                //Log Error
+
             }
+
+            
             return res;
         }
 

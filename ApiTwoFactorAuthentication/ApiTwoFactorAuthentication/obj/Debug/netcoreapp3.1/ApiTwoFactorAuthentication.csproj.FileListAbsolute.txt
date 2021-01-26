@@ -53,3 +53,34 @@ C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTw
 C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.csproj.CoreCompileInputs.cache
 C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.exe
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.deps.json
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.runtimeconfig.json
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.runtimeconfig.dev.json
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.dll
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.pdb
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\EncodeDotNet.dll
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\Google.Authenticator.dll
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\QRCoder.dll
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\TwoStepsAuthenticator.dll
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\Wiry.Base32.dll
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.csprojAssemblyReference.cache
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.AssemblyInfoInputs.cache
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.AssemblyInfo.cs
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.csproj.CoreCompileInputs.cache
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\staticwebassets\ApiTwoFactorAuthentication.StaticWebAssets.Manifest.cache
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\staticwebassets\ApiTwoFactorAuthentication.StaticWebAssets.xml
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\scopedcss\bundle\ApiTwoFactorAuthentication.styles.css
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.RazorTargetAssemblyInfo.cache
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.csproj.CopyComplete
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.dll
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.pdb
+C:\Users\sygno.mmadrigal\Desktop\Proyectos Git\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.genruntimeconfig.cache
