@@ -43,7 +43,6 @@ C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTw
 C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.dll
 C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.pdb
 C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.genruntimeconfig.cache
-C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\obj\Debug\netcoreapp3.1\ApiTwoFactorAuthentication.csprojAssemblyReference.cache
 C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\EncodeDotNet.dll
 C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\Wiry.Base32.dll
 C:\Users\diore\OneDrive\Documentos\RepositoriosGuit\TwoFactorAuthenticator\ApiTwoFactorAuthentication\ApiTwoFactorAuthentication\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll

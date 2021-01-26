@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
+        "projectName": "ApiTwoFactorAuthentication",
+        "projectPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
+        "packagesPath": "C:\\Users\\diore\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EncodeDotNet": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "GoogleAuthenticator": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "TwoStepsAuthenticator": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Wiry.Base32": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj",
+        "projectName": "UnitTestProjecTwoFactor",
+        "projectPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj",
+        "packagesPath": "C:\\Users\\diore\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj": {
+                "projectPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
