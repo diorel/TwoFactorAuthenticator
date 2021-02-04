@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj": {}
+    "C:\\Users\\sygno.mmadrigal\\Desktop\\Proyectos Git\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj": {
+    "C:\\Users\\sygno.mmadrigal\\Desktop\\Proyectos Git\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
+        "projectUniqueName": "C:\\Users\\sygno.mmadrigal\\Desktop\\Proyectos Git\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
         "projectName": "ApiTwoFactorAuthentication",
-        "projectPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
-        "packagesPath": "C:\\Users\\diore\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\obj\\",
+        "projectPath": "C:\\Users\\sygno.mmadrigal\\Desktop\\Proyectos Git\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj",
+        "packagesPath": "C:\\Users\\sygno.mmadrigal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sygno.mmadrigal\\Desktop\\Proyectos Git\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\diore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sygno.mmadrigal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "EncodeDotNet": {
               "target": "Package",
@@ -49,6 +51,10 @@
             "QRCoder": {
               "target": "Package",
               "version": "[1.4.1, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -81,21 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj": {
+    "C:\\Users\\sygno.mmadrigal\\Desktop\\Proyectos Git\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj",
+        "projectUniqueName": "C:\\Users\\sygno.mmadrigal\\Desktop\\Proyectos Git\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj",
         "projectName": "UnitTestProjecTwoFactor",
-        "projectPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj",
-        "packagesPath": "C:\\Users\\diore\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\obj\\",
+        "projectPath": "C:\\Users\\sygno.mmadrigal\\Desktop\\Proyectos Git\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\UnitTestProjecTwoFactor.csproj",
+        "packagesPath": "C:\\Users\\sygno.mmadrigal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sygno.mmadrigal\\Desktop\\Proyectos Git\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\UnitTestProjecTwoFactor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\diore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sygno.mmadrigal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,9 +113,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj": {
-                "projectPath": "C:\\Users\\diore\\OneDrive\\Documentos\\RepositoriosGuit\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj"
+              "C:\\Users\\sygno.mmadrigal\\Desktop\\Proyectos Git\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj": {
+                "projectPath": "C:\\Users\\sygno.mmadrigal\\Desktop\\Proyectos Git\\TwoFactorAuthenticator\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication\\ApiTwoFactorAuthentication.csproj"
               }
             }
           }
@@ -122,6 +129,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -158,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
